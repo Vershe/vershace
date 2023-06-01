@@ -34,7 +34,7 @@
   border-radius: 60px;
   font-weight: 700;
 }
-img.banner-image {
+.banner-image img {
     max-width: 100%;
     height: auto;
 }

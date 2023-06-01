@@ -35,7 +35,7 @@
   font-weight: 700;
 }
 .banner-image img {
-    max-width: 100%;
+    width: auto;
     height: auto;
 }
 .jumbotron {
@@ -54,8 +54,8 @@
   min-width: 300px;
 }
 .col-2 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 1250px;
+  max-height: 800px;
 }
 .footer {
   background-color: #ffdab9;

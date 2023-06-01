@@ -35,8 +35,7 @@
   font-weight: 700;
 }
 .banner-image img {
-    width: auto;
-    height: auto;
+    width: 100%;
 }
 .jumbotron {
   padding-top: 2rem;

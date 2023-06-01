@@ -38,9 +38,6 @@ img.banner-image {
     max-width: 100%;
     height: auto;
 }
-img.banner-image {
-    width: 100%;
-}
 .jumbotron {
   padding-top: 2rem;
   background-color: #ffdab9;

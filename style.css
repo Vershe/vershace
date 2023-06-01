@@ -34,8 +34,9 @@
   border-radius: 60px;
   font-weight: 700;
 }
-body {
-  min-height: auto;
+img.banner-image {
+    max-width: 100%;
+    height: auto;
 }
 img.banner-image {
     width: 100%;

@@ -34,9 +34,6 @@
   border-radius: 60px;
   font-weight: 700;
 }
-.col-auto img {
-    width: 100%;
-}
 .jumbotron {
   padding-top: 2rem;
   background-color: #ffdab9;

@@ -34,8 +34,8 @@
   border-radius: 60px;
   font-weight: 700;
 }
-.banner-image {
-    width: auto;
+.col-auto img {
+    width: 100%;
     height: auto;
 }
 .jumbotron {

@@ -55,13 +55,11 @@ body {
 }
 .jumbotron {
   margin-top: 100px;
-  padding-bottom: 0rem;
 }
 
 .jumbotron2 {
   padding-top: 2rem;
   background-color: #ffdab9;
-  padding-bottom: 0rem;
 }
 .jumbotron2 .display-4  {
   margin-top: 20px;

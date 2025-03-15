@@ -1,3 +1,13 @@
+/* VERSHACÉ by Veronica Sihombing
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
 .navbar-brand {
   font-size: 1.5rem;
   color: orange;
@@ -14,6 +24,12 @@
   outline: lightgoldenrodyellow;
   border: 2px solid lightgoldenrodyellow;
 }
+
+.img-fluid  {
+  max-width: 100%;
+  height: auto;
+} 
+
 .btn0 {
   height: 35px;
   width: 30%;
@@ -34,10 +50,21 @@
   border-radius: 60px;
   font-weight: 700;
 }
+body {
+  min-height: auto;
+}
 .jumbotron {
+  margin-top: 100px;
+}
+
+.jumbotron2 {
   padding-top: 2rem;
   background-color: #ffdab9;
 }
+.jumbotron2 .display-4  {
+  margin-top: 20px;
+}
+
 .row1 {
   display: flex;
   align-items: center;
@@ -72,4 +99,27 @@
 .custom-card {
   height: 200px;
   justify-content: center;
+}
+
+.portfolio-block img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-block .zoom-on-hover:hover img {
+  transform: scale(1.1);
+}
+ .portfolio-block .container  {
+  margin-top: 80px;
+ }
+
+.custom-card .card-title {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.custom-card .card-text {
+  margin-bottom: 20px;
+  font-size: 8;
+  font-weight: lighter;
 }
